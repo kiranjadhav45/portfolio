@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap");
+
+* {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer {
+  background-color: #1f1f1f !important;
+}
+.name-heading {
+  font-family: "Alkatra", cursive;
+}
+/* .chat-btn-custom {
+  background-color: #f06d55;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: larger;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 15px;
+} */
+/* .chat-btn-custom :hover {
+  cursor: pointer;
+} */
+
+.whatsapp-image {
+  width: 25%;
+}
+
+.Email-font {
+  font-size: 1.4rem;
+}
+.Email-font div a {
+  background-color: #f06d55 !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
