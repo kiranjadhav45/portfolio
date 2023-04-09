@@ -11,8 +11,17 @@ const Section = () => {
           <img
             width={500}
             className="img-fluid"
-            src="../../public/kiranjadhav.png"
+            src="https://i.ibb.co/MGCWWtD/kiranjadhav-1.jpg"
+            alt="kiranjadhav-1"
+            border="0"
           />
+
+          {/* <img
+           
+            src="https://i.ibb.co/2ndPGDt/kiranjadhav.jpg"
+            alt="kiranjadhav"
+            border="0"
+          /> */}
         </div>
         <div className="col-lg-5 my-auto text-center justify-content-center my-4">
           <h1 className="name-heading">Kiran Jadhav</h1>
@@ -45,8 +54,9 @@ const Section = () => {
                 target="_blank"
                 className=" img-fluid"
                 width={150}
-                alt="Responsive image"
-                src="../../public/WhatsAppButtonGreenSmall.png"
+                src="https://i.ibb.co/nRs3X3t/Whats-App-Button-Green-Small.png"
+                alt="Whats-App-Button-Green-Small"
+                border="0"
               />
             </a>
           </div>
