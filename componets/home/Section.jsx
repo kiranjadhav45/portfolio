@@ -18,15 +18,29 @@ const Section = () => {
           <h1 className="name-heading">Kiran Jadhav</h1>
           <p>Frontend Developer, Programmer & React.</p>
 
-          <div className="mt-4 footer mb-4">
-            <BsLinkedin className="mx-2" size={25} />
-            <GoMarkGithub className="mx-2" size={25} />
-            <FiInstagram className="mx-2" size={25} />
-            <AiFillFacebook className="mx-2" size={25} />
-            <BsTwitter className="mx-2" size={25} />
+          <div className="mt-4 footer mb-4 icons_contacts_link">
+            <a
+              href="https://www.linkedin.com/in/jadhavkiran45/"
+              target="_blank"
+            >
+              <BsLinkedin className="mx-2" size={25} />
+            </a>
+            <a href="https://github.com/kiranjadhav45" target="_blank">
+              <GoMarkGithub className="mx-2" size={25} />
+            </a>
+            <a href="https://www.instagram.com/_k.i.r.a.n_07/" target="_blank">
+              <FiInstagram className="mx-2" size={25} />
+            </a>
+            <a>
+              <AiFillFacebook className="mx-2" size={25} />
+            </a>
+
+            <a href="https://twitter.com/Jadhavkiran45" target="_blank">
+              <BsTwitter className="mx-2" size={25} />
+            </a>
           </div>
-          <div className="mt-4 text-center justify-content-center ">
-            <a href="https://wa.me/917620152632">
+          <div className="mt-4 text-center justify-content-center whatsappimage">
+            <a target="_blank" href="https://wa.me/917620152632">
               <img
                 target="_blank"
                 className=" img-fluid"

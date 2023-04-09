@@ -11,12 +11,23 @@ const Footer = () => {
       <p className="mb-0 footer"> Pune Maharashtra, India</p>
       <h5 className="footer"> kiranjadhav4518@gmail.com</h5>
       <small>+91 7620152632</small>
-      <div className="mt-4 footer mb-4">
-        <BsLinkedin className="mx-2" size={25} />
-        <GoMarkGithub className="mx-2" size={25} />
-        <FiInstagram className="mx-2" size={25} />
-        <AiFillFacebook className="mx-2" size={25} />
-        <BsTwitter className="mx-2" size={25} />
+      <div className="mt-4 footer mb-4 icons_contacts_link">
+        <a href="https://www.linkedin.com/in/jadhavkiran45/" target="_blank">
+          <BsLinkedin className="mx-2" size={25} />
+        </a>
+        <a href="https://github.com/kiranjadhav45" target="_blank">
+          <GoMarkGithub className="mx-2" size={25} />
+        </a>
+        <a href="https://www.instagram.com/_k.i.r.a.n_07/" target="_blank">
+          <FiInstagram className="mx-2" size={25} />
+        </a>
+        <a>
+          <AiFillFacebook className="mx-2" size={25} />
+        </a>
+
+        <a href="https://twitter.com/Jadhavkiran45" target="_blank">
+          <BsTwitter className="mx-2" size={25} />
+        </a>
       </div>
     </div>
   );

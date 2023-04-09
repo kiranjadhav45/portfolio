@@ -2,9 +2,10 @@ import React from "react";
 
 const SkillSection = () => {
   return (
-    <div>
-      <div className="row my-4">
-        <div className="col-lg-2 col-md-3 col-sm-4 col-xl-2 col-6 my-2    text-center">
+    <div className="container my-4">
+      <h1>Worked With Those Technologies</h1>
+      <div className="row my-4 skillbuttonshtml">
+        <div className="col-lg-2 col-md-3 col-sm-4 col-xl-2 col-6 my-2  text-center">
           <img width={100} src="../../public/html-5.png" alt="" />
           <h5 className="mt-1">HTML 5</h5>
         </div>
