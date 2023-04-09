@@ -22,7 +22,12 @@ const SkillSection = () => {
           <h5 className="mt-1">JavaScript</h5>
         </div>
         <div className="col-lg-2 col-md-3 col-sm-4 col-xl-2 col-6 my-2  text-center">
-          <img width={100} src="../../public/react.png" alt="" />
+          {/* <img width={100} src="../../public/react.png" alt="" /> */}
+          <img
+            width={100}
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            alt=""
+          />
           <h5 className="mt-1">React JS</h5>
         </div>
         <div className="col-lg-2 col-md-3 col-sm-4 col-xl-2 col-6 my-2  text-center">
