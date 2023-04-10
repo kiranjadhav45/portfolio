@@ -26,6 +26,7 @@ const Section = () => {
         <div className="col-lg-5 my-auto text-center justify-content-center my-4">
           <h1 className="name-heading">Kiran Jadhav</h1>
           <p>Frontend Developer, Programmer & React.</p>
+          <p className="pt-0 mt-0">+91 7620152632</p>
 
           <div className="mt-4 footer mb-4 icons_contacts_link">
             <a

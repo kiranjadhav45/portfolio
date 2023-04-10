@@ -2,6 +2,8 @@ import React from "react";
 import { GrMail } from "react-icons/gr";
 import { FaDownload } from "react-icons/fa";
 import { MdCloudDownload } from "react-icons/md";
+// import { MdCloudDownload } from "react-icons/md";
+import { IoCallSharp } from "react-icons/io5";
 
 const AboutSection = () => {
   return (
@@ -10,7 +12,7 @@ const AboutSection = () => {
       <div className="row">
         <div className="col-lg-6 mb-4">
           <p>
-            As a MERN stack developer, I have extensive experience with MongoDB,
+            {/* As a MERN stack developer, I have extensive experience with MongoDB,
             Express.js, React, and Node.js. My expertise in front-end
             development using React.js allows me to create dynamic and
             interactive user interfaces using HTML5, CSS3, and Bootstrap. In
@@ -18,7 +20,16 @@ const AboutSection = () => {
             Express.js, along with MongoDB as the database system, enables me to
             build robust and scalable web applications. I am constantly seeking
             to learn and apply new technologies to enhance my skills as a MERN
-            stack developer.
+            stack developer. */}
+            As a MERN stack developer, I have worked with MongoDB, Express.js,
+            React, and Node.js.{" "}
+            <b>My expertise in front-end development using React.js </b> allows
+            me to create dynamic and interactive user interfaces using HTML5,
+            CSS3, and Bootstrap. In addition, my knowledge of back-end
+            development using Node.js and Express.js, along with MongoDB as the
+            database system, enables me to build robust and scalable web
+            applications. I am constantly seeking to learn and apply new
+            technologies to enhance my skills as a MERN stack developer.
           </p>
         </div>
         <div className="col-lg-6 my-2">
@@ -29,6 +40,9 @@ const AboutSection = () => {
               kiranjadhav4518@gmail.com
             </a>
 
+            <p>
+              <IoCallSharp className="mx-2" size={20} /> +91 7620152632
+            </p>
             <div className="mt-4 downlod-button Resume">
               <a
                 className="Downlod_Resume_button"
