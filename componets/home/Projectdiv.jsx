@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Projectdiv = () => {
   return (
@@ -11,8 +12,7 @@ const Projectdiv = () => {
           <p>
             Showcasing my skills and expertise through practical applications{" "}
           </p>
-
-          <a href="">Explore</a>
+          <Link to="/projects">Explore</Link>
         </div>
         <div className="col-lg-10 certification_section_div my-4">
           <p>Coming Soon</p>
@@ -21,7 +21,7 @@ const Projectdiv = () => {
             Certifications: Demonstrating my dedication and knowledge in
             relevant fields
           </p>
-          <a href="">Explore</a>
+          <Link to="/achivements">Explore</Link>
         </div>
       </div>
     </div>

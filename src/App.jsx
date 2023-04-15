@@ -1,28 +1,20 @@
-import { useState } from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { ReactDOM } from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Footer from "../componets/home/Footer";
-import Navbar from "../componets/home/Navbar";
-import Section from "../componets/home/Section";
-import AboutSection from "../componets/home/AboutSection";
-import SkillSection from "../componets/home/SkillSection";
-import ProjectMiniSection from "../componets/ProjectMiniSection";
-import Projectdiv from "../componets/home/Projectdiv";
+import Home from "../pages/Home";
+import Project from "../pages/Project";
+import Achivements from "../pages/Achivements";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="container">
-        <Navbar />
-        <Section />
-        <AboutSection />
-        <Projectdiv />
-        {/* <ProjectMiniSection /> */}
-        <SkillSection />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/achivements" element={<Achivements />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

@@ -9,7 +9,11 @@ const Footer = () => {
     <div className="text-center justify-content-center footer my-4">
       <h3 className="mb-3 footer">Stay Connected</h3>
       <p className="mb-0 footer"> Pune Maharashtra, India</p>
-      <h5 className="footer"> kiranjadhav4518@gmail.com</h5>
+      <h5 className="footer">
+        <a className="nav-link" href="mailto:kiranjadhav4518@gmail.com">
+          kiranjadhav4518@gmail.com
+        </a>
+      </h5>
       <small>+91 7620152632</small>
       <div className="mt-4 footer mb-4 icons_contacts_link">
         <a href="https://www.linkedin.com/in/jadhavkiran45/" target="_blank">
