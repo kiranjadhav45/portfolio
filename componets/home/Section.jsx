@@ -15,17 +15,10 @@ const Section = () => {
             alt="kiranjadhav-1"
             border="0"
           />
-
-          {/* <img
-           
-            src="https://i.ibb.co/2ndPGDt/kiranjadhav.jpg"
-            alt="kiranjadhav"
-            border="0"
-          /> */}
         </div>
         <div className="col-lg-5 my-auto text-center justify-content-center my-4">
           <h1 className="name-heading">Kiran Jadhav</h1>
-          <p>Frontend Developer, Programmer & React.</p>
+          <p>Frontend Developer, Programmer ,React JS Developer.</p>
           <p className="pt-0 mt-0">+91 7620152632</p>
 
           <div className="mt-4 footer mb-4 icons_contacts_link">

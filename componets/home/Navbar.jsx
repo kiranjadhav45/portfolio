@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
 import { GiAchievement } from "react-icons/gi";
 import { RiProjectorFill } from "react-icons/ri";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
