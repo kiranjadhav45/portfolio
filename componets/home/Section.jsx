@@ -9,7 +9,7 @@ const Section = () => {
       <div className="row mt-4 ">
         <div className="col-lg-7 mt-4 text-center profile-image my-4 ">
           <img
-            width={500}
+            width={200}
             className="img-fluid"
             src="https://i.ibb.co/MGCWWtD/kiranjadhav-1.jpg"
             alt="kiranjadhav-1"
@@ -43,7 +43,7 @@ const Section = () => {
             </a>
           </div>
           <div className="mt-4 text-center justify-content-center whatsappimage">
-            <a target="_blank" href="https://wa.me/917620152632">
+            <a target="_blank" href="https://wa.me/917620152632?text=Hello">
               <img
                 target="_blank"
                 className=" img-fluid"

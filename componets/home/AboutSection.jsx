@@ -47,7 +47,7 @@ const AboutSection = () => {
               <a
                 className="Downlod_Resume_button"
                 target="_blank"
-                href="https://drive.google.com/file/d/1DLf56IvAfH7MkXnzccQbXtp0uWTaO5hY/view?usp=share_link"
+                href="https://drive.google.com/file/d/1nxrSoSrQ4O1MTSSy4u18_AjCU_LEb0Ll/view?usp=sharing"
               >
                 <MdCloudDownload
                   className="mx-2 "
